@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
+	<GroupList>2:02023637-7868-4a5f-8576-835a76e0c9ba</GroupList>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
 	</AutoCommandBar>
@@ -105,7 +106,8 @@
 			<EnableStartDrag>true</EnableStartDrag>
 			<EnableDrag>true</EnableDrag>
 			<FileDragMode>AsFile</FileDragMode>
-			<RowPictureDataPath>10000000</RowPictureDataPath>
+			<DataPath>Список</DataPath>
+			<RowPictureDataPath>Список.DefaultPicture</RowPictureDataPath>
 			<AutoRefresh>false</AutoRefresh>
 			<AutoRefreshPeriod>60</AutoRefreshPeriod>
 			<Period>
@@ -159,6 +161,7 @@
 			</SearchControlAddition>
 			<ChildItems>
 				<PictureField name="Основной" id="42">
+					<DataPath>Список.Основной</DataPath>
 					<TitleLocation>None</TitleLocation>
 					<ToolTip>
 						<v8:item>
@@ -175,6 +178,7 @@
 					<ExtendedTooltip name="ОсновнойРасширеннаяПодсказка" id="44"/>
 				</PictureField>
 				<LabelField name="Наименование" id="10">
+					<DataPath>Список.Наименование</DataPath>
 					<DefaultItem>true</DefaultItem>
 					<HorizontalAlign>Left</HorizontalAlign>
 					<FixingInTable>Left</FixingInTable>
@@ -184,19 +188,23 @@
 					<ExtendedTooltip name="НаименованиеExtendedTooltip" id="31"/>
 				</LabelField>
 				<LabelField name="ВидДоговора" id="18">
+					<DataPath>Список.ВидДоговора</DataPath>
 					<ContextMenu name="ВидДоговораКонтекстноеМеню" id="19"/>
 					<ExtendedTooltip name="ВидДоговораExtendedTooltip" id="36"/>
 				</LabelField>
 				<LabelField name="Статус" id="93">
+					<DataPath>Список.Статус</DataPath>
 					<ContextMenu name="СтатусКонтекстноеМеню" id="94"/>
 					<ExtendedTooltip name="СтатусРасширеннаяПодсказка" id="95"/>
 				</LabelField>
 				<CheckBoxField name="Бюджетный" id="84">
+					<DataPath>Список.Бюджетный</DataPath>
 					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="БюджетныйКонтекстноеМеню" id="85"/>
 					<ExtendedTooltip name="БюджетныйРасширеннаяПодсказка" id="86"/>
 				</CheckBoxField>
 				<LabelField name="Номер" id="22">
+					<DataPath>Список.Номер</DataPath>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -209,12 +217,14 @@
 					<ExtendedTooltip name="НомерExtendedTooltip" id="37"/>
 				</LabelField>
 				<LabelField name="Дата" id="20">
+					<DataPath>Список.Дата</DataPath>
 					<Width>9</Width>
 					<HorizontalStretch>false</HorizontalStretch>
 					<ContextMenu name="ДатаКонтекстноеМеню" id="21"/>
 					<ExtendedTooltip name="ДатаExtendedTooltip" id="38"/>
 				</LabelField>
 				<LabelField name="СрокДействия" id="60">
+					<DataPath>Список.СрокДействия</DataPath>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -227,6 +237,7 @@
 					<ExtendedTooltip name="СрокДействияРасширеннаяПодсказка" id="62"/>
 				</LabelField>
 				<LabelField name="ВалютаВзаиморасчетов" id="14">
+					<DataPath>Список.ВалютаВзаиморасчетов</DataPath>
 					<Visible>false</Visible>
 					<Title>
 						<v8:item>
@@ -238,6 +249,7 @@
 					<ExtendedTooltip name="ВалютаВзаиморасчетовExtendedTooltip" id="33"/>
 				</LabelField>
 				<LabelField name="Владелец" id="24">
+					<DataPath>Список.Владелец</DataPath>
 					<UserVisible>
 						<xr:Common>false</xr:Common>
 					</UserVisible>
@@ -245,10 +257,12 @@
 					<ExtendedTooltip name="ВладелецExtendedTooltip" id="34"/>
 				</LabelField>
 				<LabelField name="Организация" id="16">
+					<DataPath>Список.Организация</DataPath>
 					<ContextMenu name="ОрганизацияКонтекстноеМеню" id="17"/>
 					<ExtendedTooltip name="ОрганизацияExtendedTooltip" id="35"/>
 				</LabelField>
 				<LabelField name="Стоимость" id="87">
+					<DataPath>Список.Стоимость</DataPath>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -260,6 +274,7 @@
 					<ExtendedTooltip name="СтоимостьРасширеннаяПодсказка" id="89"/>
 				</LabelField>
 				<LabelField name="ОбщаяСумма" id="90">
+					<DataPath>Список.ОбщаяСумма</DataPath>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -271,13 +286,20 @@
 					<ExtendedTooltip name="ОбщаяСуммаРасширеннаяПодсказка" id="92"/>
 				</LabelField>
 				<LabelField name="ВидВзаиморасчетов" id="81">
+					<DataPath>Список.ВидВзаиморасчетов</DataPath>
 					<UserVisible>
 						<xr:Common>false</xr:Common>
 					</UserVisible>
 					<ContextMenu name="ВидВзаиморасчетовКонтекстноеМеню" id="82"/>
 					<ExtendedTooltip name="ВидВзаиморасчетовРасширеннаяПодсказка" id="83"/>
 				</LabelField>
+				<LabelField name="Комментарий" id="96">
+					<DataPath>Список.Комментарий</DataPath>
+					<ContextMenu name="КомментарийКонтекстноеМеню" id="97"/>
+					<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="98"/>
+				</LabelField>
 				<LabelField name="Код" id="12">
+					<DataPath>Список.Код</DataPath>
 					<UserVisible>
 						<xr:Common>false</xr:Common>
 					</UserVisible>
@@ -285,6 +307,7 @@
 					<ExtendedTooltip name="КодExtendedTooltip" id="32"/>
 				</LabelField>
 				<LabelField name="Ссылка" id="26">
+					<DataPath>Список.Ссылка</DataPath>
 					<UserVisible>
 						<xr:Common>false</xr:Common>
 					</UserVisible>
@@ -294,9 +317,126 @@
 			</ChildItems>
 		</Table>
 	</ChildItems>
-	<Attributes/>
+	<Attributes>
+		<Attribute name="Список" id="1000001">
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<UseAlways>
+				<Field>~Список.ОсновноеНаименование</Field>
+				<Field>Список.ВидДоговора</Field>
+				<Field>Список.Владелец</Field>
+				<Field>Список.ДействуетНа</Field>
+				<Field>Список.Организация</Field>
+				<Field>Список.Основной</Field>
+				<Field>Список.Ссылка</Field>
+				<Field>Список.ЭтоГруппа</Field>
+			</UseAlways>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>true</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<QueryText>ВЫБРАТЬ
+	СправочникДоговорыКонтрагентов.Ссылка КАК Ссылка,
+	СправочникДоговорыКонтрагентов.ПометкаУдаления КАК ПометкаУдаления,
+	СправочникДоговорыКонтрагентов.Владелец КАК Владелец,
+	СправочникДоговорыКонтрагентов.Родитель КАК Родитель,
+	СправочникДоговорыКонтрагентов.ЭтоГруппа КАК ЭтоГруппа,
+	СправочникДоговорыКонтрагентов.Код КАК Код,
+	СправочникДоговорыКонтрагентов.Наименование КАК Наименование,
+	СправочникДоговорыКонтрагентов.Крон_Комментарий КАК Комментарий,
+	СправочникДоговорыКонтрагентов.Бюджетный КАК Бюджетный,
+	СправочникДоговорыКонтрагентов.ВалютаВзаиморасчетов КАК ВалютаВзаиморасчетов,
+	СправочникДоговорыКонтрагентов.ПредметДоговора КАК ПредметДоговора,
+	СправочникДоговорыКонтрагентов.Организация КАК Организация,
+	СправочникДоговорыКонтрагентов.ТипЦен КАК ТипЦен,
+	СправочникДоговорыКонтрагентов.ВидДоговора КАК ВидДоговора,
+	СправочникДоговорыКонтрагентов.РасчетыВУсловныхЕдиницах КАК РасчетыВУсловныхЕдиницах,
+	СправочникДоговорыКонтрагентов.ВидВзаиморасчетов КАК ВидВзаиморасчетов,
+	СправочникДоговорыКонтрагентов.Дата КАК Дата,
+	СправочникДоговорыКонтрагентов.Номер КАК Номер,
+	СправочникДоговорыКонтрагентов.СрокДействия КАК СрокДействия,
+	СправочникДоговорыКонтрагентов.УстановленСрокОплаты КАК УстановленСрокОплаты,
+	СправочникДоговорыКонтрагентов.СрокОплаты КАК СрокОплаты,
+	СправочникДоговорыКонтрагентов.Валютный КАК Валютный,
+	СправочникДоговорыКонтрагентов.ОплатаВВалюте КАК ОплатаВВалюте,
+	СправочникДоговорыКонтрагентов.Предопределенный КАК Предопределенный,
+	СправочникДоговорыКонтрагентов.ИмяПредопределенныхДанных КАК ИмяПредопределенныхДанных,
+	НЕ ОсновныеДоговорыКонтрагента.Договор ЕСТЬ NULL КАК Основной,
+	&amp;ДействуетНа КАК ДействуетНа,
+	СправочникДоговорыКонтрагентов.Стоимость КАК Стоимость,
+	СправочникДоговорыКонтрагентов.ОбщаяСумма КАК ОбщаяСумма,
+	СправочникДоговорыКонтрагентов.НомерВКонтуре КАК НомерВКонтуре,
+	ВЫБОР
+		КОГДА СправочникДоговорыКонтрагентов.Статус = 1
+			ТОГДА "Договор на исполнении"
+		КОГДА СправочникДоговорыКонтрагентов.Статус = -1
+			ТОГДА "Договор в архиве"
+		КОГДА СправочникДоговорыКонтрагентов.Статус = -3
+			ТОГДА "Договор отменён"
+		КОГДА СправочникДоговорыКонтрагентов.Статус = 3
+			ТОГДА "Коммерческое предложение"
+		КОГДА СправочникДоговорыКонтрагентов.Статус = 2
+			ТОГДА "Договор выполнен"
+		ИНАЧЕ "Черновик"
+	КОНЕЦ КАК Статус
+ИЗ
+	Справочник.ДоговорыКонтрагентов КАК СправочникДоговорыКонтрагентов
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ОсновныеДоговорыКонтрагента КАК ОсновныеДоговорыКонтрагента
+		ПО СправочникДоговорыКонтрагентов.Организация = ОсновныеДоговорыКонтрагента.Организация
+			И СправочникДоговорыКонтрагентов.Владелец = ОсновныеДоговорыКонтрагента.Контрагент
+			И СправочникДоговорыКонтрагентов.ВидДоговора = ОсновныеДоговорыКонтрагента.ВидДоговора
+			И СправочникДоговорыКонтрагентов.Ссылка = ОсновныеДоговорыКонтрагента.Договор
+{ХАРАКТЕРИСТИКИ
+	ТИП(Справочник.ДоговорыКонтрагентов)
+	ВИДЫХАРАКТЕРИСТИК (ВЫБРАТЬ
+			ДополнительныеРеквизитыИСведения.Ссылка КАК Ссылка,
+			ДополнительныеРеквизитыИСведения.ПометкаУдаления КАК ПометкаУдаления,
+			ДополнительныеРеквизитыИСведения.Наименование КАК Наименование,
+			ДополнительныеРеквизитыИСведения.ТипЗначения КАК ТипЗначения
+		ИЗ
+			ПланВидовХарактеристик.ДополнительныеРеквизитыИСведения КАК ДополнительныеРеквизитыИСведения
+		ГДЕ
+			НЕ ДополнительныеРеквизитыИСведения.ПометкаУдаления)
+	ПОЛЕКЛЮЧА Ссылка
+	ПОЛЕИМЕНИ Наименование
+	ПОЛЕТИПАЗНАЧЕНИЯ ТипЗначения
+	ЗНАЧЕНИЯХАРАКТЕРИСТИК (ВЫБРАТЬ
+			ДоговорыКонтрагентовДополнительныеРеквизиты.Ссылка КАК Ссылка,
+			ДоговорыКонтрагентовДополнительныеРеквизиты.Свойство КАК Свойство,
+			ДоговорыКонтрагентовДополнительныеРеквизиты.Значение КАК Значение
+		ИЗ
+			Справочник.ДоговорыКонтрагентов.ДополнительныеРеквизиты КАК ДоговорыКонтрагентовДополнительныеРеквизиты)
+	ПОЛЕОБЪЕКТА Ссылка
+	ПОЛЕВИДА Свойство
+	ПОЛЕЗНАЧЕНИЯ Значение }</QueryText>
+				<MainTable>Catalog.ДоговорыКонтрагентов</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemField">
+							<dcsset:field>Основной</dcsset:field>
+							<dcsset:orderType>Desc</dcsset:orderType>
+						</dcsset:item>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+	</Attributes>
 	<BaseForm version="2.11">
 		<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
+		<GroupList>2:02023637-7868-4a5f-8576-835a76e0c9ba</GroupList>
 		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 			<Autofill>false</Autofill>
 		</AutoCommandBar>
@@ -401,7 +541,8 @@
 				<EnableStartDrag>true</EnableStartDrag>
 				<EnableDrag>true</EnableDrag>
 				<FileDragMode>AsFile</FileDragMode>
-				<RowPictureDataPath>10000000</RowPictureDataPath>
+				<DataPath>Список</DataPath>
+				<RowPictureDataPath>Список.DefaultPicture</RowPictureDataPath>
 				<AutoRefresh>false</AutoRefresh>
 				<AutoRefreshPeriod>60</AutoRefreshPeriod>
 				<Period>
@@ -455,6 +596,7 @@
 				</SearchControlAddition>
 				<ChildItems>
 					<PictureField name="Основной" id="42">
+						<DataPath>Список.Основной</DataPath>
 						<TitleLocation>None</TitleLocation>
 						<ToolTip>
 							<v8:item>
@@ -471,6 +613,7 @@
 						<ExtendedTooltip name="ОсновнойРасширеннаяПодсказка" id="44"/>
 					</PictureField>
 					<LabelField name="Наименование" id="10">
+						<DataPath>Список.Наименование</DataPath>
 						<DefaultItem>true</DefaultItem>
 						<HorizontalAlign>Left</HorizontalAlign>
 						<FixingInTable>Left</FixingInTable>
@@ -480,19 +623,23 @@
 						<ExtendedTooltip name="НаименованиеExtendedTooltip" id="31"/>
 					</LabelField>
 					<LabelField name="ВидДоговора" id="18">
+						<DataPath>Список.ВидДоговора</DataPath>
 						<ContextMenu name="ВидДоговораКонтекстноеМеню" id="19"/>
 						<ExtendedTooltip name="ВидДоговораExtendedTooltip" id="36"/>
 					</LabelField>
 					<LabelField name="Статус" id="93">
+						<DataPath>Список.Статус</DataPath>
 						<ContextMenu name="СтатусКонтекстноеМеню" id="94"/>
 						<ExtendedTooltip name="СтатусРасширеннаяПодсказка" id="95"/>
 					</LabelField>
 					<CheckBoxField name="Бюджетный" id="84">
+						<DataPath>Список.Бюджетный</DataPath>
 						<CheckBoxType>Auto</CheckBoxType>
 						<ContextMenu name="БюджетныйКонтекстноеМеню" id="85"/>
 						<ExtendedTooltip name="БюджетныйРасширеннаяПодсказка" id="86"/>
 					</CheckBoxField>
 					<LabelField name="Номер" id="22">
+						<DataPath>Список.Номер</DataPath>
 						<Title>
 							<v8:item>
 								<v8:lang>ru</v8:lang>
@@ -505,12 +652,14 @@
 						<ExtendedTooltip name="НомерExtendedTooltip" id="37"/>
 					</LabelField>
 					<LabelField name="Дата" id="20">
+						<DataPath>Список.Дата</DataPath>
 						<Width>9</Width>
 						<HorizontalStretch>false</HorizontalStretch>
 						<ContextMenu name="ДатаКонтекстноеМеню" id="21"/>
 						<ExtendedTooltip name="ДатаExtendedTooltip" id="38"/>
 					</LabelField>
 					<LabelField name="СрокДействия" id="60">
+						<DataPath>Список.СрокДействия</DataPath>
 						<Title>
 							<v8:item>
 								<v8:lang>ru</v8:lang>
@@ -523,6 +672,7 @@
 						<ExtendedTooltip name="СрокДействияРасширеннаяПодсказка" id="62"/>
 					</LabelField>
 					<LabelField name="ВалютаВзаиморасчетов" id="14">
+						<DataPath>Список.ВалютаВзаиморасчетов</DataPath>
 						<Visible>false</Visible>
 						<Title>
 							<v8:item>
@@ -534,6 +684,7 @@
 						<ExtendedTooltip name="ВалютаВзаиморасчетовExtendedTooltip" id="33"/>
 					</LabelField>
 					<LabelField name="Владелец" id="24">
+						<DataPath>Список.Владелец</DataPath>
 						<UserVisible>
 							<xr:Common>false</xr:Common>
 						</UserVisible>
@@ -541,10 +692,12 @@
 						<ExtendedTooltip name="ВладелецExtendedTooltip" id="34"/>
 					</LabelField>
 					<LabelField name="Организация" id="16">
+						<DataPath>Список.Организация</DataPath>
 						<ContextMenu name="ОрганизацияКонтекстноеМеню" id="17"/>
 						<ExtendedTooltip name="ОрганизацияExtendedTooltip" id="35"/>
 					</LabelField>
 					<LabelField name="Стоимость" id="87">
+						<DataPath>Список.Стоимость</DataPath>
 						<Title>
 							<v8:item>
 								<v8:lang>ru</v8:lang>
@@ -556,6 +709,7 @@
 						<ExtendedTooltip name="СтоимостьРасширеннаяПодсказка" id="89"/>
 					</LabelField>
 					<LabelField name="ОбщаяСумма" id="90">
+						<DataPath>Список.ОбщаяСумма</DataPath>
 						<Title>
 							<v8:item>
 								<v8:lang>ru</v8:lang>
@@ -567,6 +721,7 @@
 						<ExtendedTooltip name="ОбщаяСуммаРасширеннаяПодсказка" id="92"/>
 					</LabelField>
 					<LabelField name="ВидВзаиморасчетов" id="81">
+						<DataPath>Список.ВидВзаиморасчетов</DataPath>
 						<UserVisible>
 							<xr:Common>false</xr:Common>
 						</UserVisible>
@@ -574,6 +729,7 @@
 						<ExtendedTooltip name="ВидВзаиморасчетовРасширеннаяПодсказка" id="83"/>
 					</LabelField>
 					<LabelField name="Код" id="12">
+						<DataPath>Список.Код</DataPath>
 						<UserVisible>
 							<xr:Common>false</xr:Common>
 						</UserVisible>
@@ -581,6 +737,7 @@
 						<ExtendedTooltip name="КодExtendedTooltip" id="32"/>
 					</LabelField>
 					<LabelField name="Ссылка" id="26">
+						<DataPath>Список.Ссылка</DataPath>
 						<UserVisible>
 							<xr:Common>false</xr:Common>
 						</UserVisible>
@@ -590,6 +747,98 @@
 				</ChildItems>
 			</Table>
 		</ChildItems>
-		<Attributes/>
+		<Attributes>
+			<Attribute name="Список" id="1000001">
+				<Type>
+					<v8:Type>cfg:DynamicList</v8:Type>
+				</Type>
+				<MainAttribute>true</MainAttribute>
+				<UseAlways>
+					<Field>~Список.ОсновноеНаименование</Field>
+					<Field>Список.ВидДоговора</Field>
+					<Field>Список.Владелец</Field>
+					<Field>Список.ДействуетНа</Field>
+					<Field>Список.Организация</Field>
+					<Field>Список.Основной</Field>
+					<Field>Список.Ссылка</Field>
+					<Field>Список.ЭтоГруппа</Field>
+				</UseAlways>
+				<Settings xsi:type="DynamicList">
+					<ManualQuery>true</ManualQuery>
+					<DynamicDataRead>true</DynamicDataRead>
+					<QueryText>ВЫБРАТЬ
+	СправочникДоговорыКонтрагентов.Ссылка КАК Ссылка,
+	СправочникДоговорыКонтрагентов.ПометкаУдаления КАК ПометкаУдаления,
+	СправочникДоговорыКонтрагентов.Владелец КАК Владелец,
+	СправочникДоговорыКонтрагентов.Родитель КАК Родитель,
+	СправочникДоговорыКонтрагентов.ЭтоГруппа КАК ЭтоГруппа,
+	СправочникДоговорыКонтрагентов.Код КАК Код,
+	СправочникДоговорыКонтрагентов.Наименование КАК Наименование,
+	СправочникДоговорыКонтрагентов.Бюджетный КАК Бюджетный,
+	СправочникДоговорыКонтрагентов.ВалютаВзаиморасчетов КАК ВалютаВзаиморасчетов,
+	СправочникДоговорыКонтрагентов.ПредметДоговора КАК ПредметДоговора,
+	СправочникДоговорыКонтрагентов.Организация КАК Организация,
+	СправочникДоговорыКонтрагентов.ТипЦен КАК ТипЦен,
+	СправочникДоговорыКонтрагентов.ВидДоговора КАК ВидДоговора,
+	СправочникДоговорыКонтрагентов.РасчетыВУсловныхЕдиницах КАК РасчетыВУсловныхЕдиницах,
+	СправочникДоговорыКонтрагентов.ВидВзаиморасчетов КАК ВидВзаиморасчетов,
+	СправочникДоговорыКонтрагентов.Дата КАК Дата,
+	СправочникДоговорыКонтрагентов.Номер КАК Номер,
+	СправочникДоговорыКонтрагентов.СрокДействия КАК СрокДействия,
+	СправочникДоговорыКонтрагентов.УстановленСрокОплаты КАК УстановленСрокОплаты,
+	СправочникДоговорыКонтрагентов.СрокОплаты КАК СрокОплаты,
+	СправочникДоговорыКонтрагентов.Валютный КАК Валютный,
+	СправочникДоговорыКонтрагентов.ОплатаВВалюте КАК ОплатаВВалюте,
+	СправочникДоговорыКонтрагентов.Предопределенный КАК Предопределенный,
+	СправочникДоговорыКонтрагентов.ИмяПредопределенныхДанных КАК ИмяПредопределенныхДанных,
+	НЕ ОсновныеДоговорыКонтрагента.Договор ЕСТЬ NULL КАК Основной,
+	&amp;ДействуетНа КАК ДействуетНа,
+	СправочникДоговорыКонтрагентов.Стоимость КАК Стоимость,
+	СправочникДоговорыКонтрагентов.ОбщаяСумма КАК ОбщаяСумма,
+	СправочникДоговорыКонтрагентов.НомерВКонтуре КАК НомерВКонтуре,
+	ВЫБОР
+		КОГДА СправочникДоговорыКонтрагентов.Статус = 1
+			ТОГДА "Договор на исполнении"
+		КОГДА СправочникДоговорыКонтрагентов.Статус = -1
+			ТОГДА "Договор в архиве"
+		КОГДА СправочникДоговорыКонтрагентов.Статус = -3
+			ТОГДА "Договор отменён"
+		КОГДА СправочникДоговорыКонтрагентов.Статус = 3
+			ТОГДА "Коммерческое предложение"
+		КОГДА СправочникДоговорыКонтрагентов.Статус = 2
+			ТОГДА "Договор выполнен"
+		ИНАЧЕ "Черновик"
+	КОНЕЦ КАК Статус
+ИЗ
+	Справочник.ДоговорыКонтрагентов КАК СправочникДоговорыКонтрагентов
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ОсновныеДоговорыКонтрагента КАК ОсновныеДоговорыКонтрагента
+		ПО СправочникДоговорыКонтрагентов.Организация = ОсновныеДоговорыКонтрагента.Организация
+			И СправочникДоговорыКонтрагентов.Владелец = ОсновныеДоговорыКонтрагента.Контрагент
+			И СправочникДоговорыКонтрагентов.ВидДоговора = ОсновныеДоговорыКонтрагента.ВидДоговора
+			И СправочникДоговорыКонтрагентов.Ссылка = ОсновныеДоговорыКонтрагента.Договор</QueryText>
+					<MainTable>Catalog.ДоговорыКонтрагентов</MainTable>
+					<ListSettings>
+						<dcsset:filter>
+							<dcsset:viewMode>Normal</dcsset:viewMode>
+							<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+						</dcsset:filter>
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemField">
+								<dcsset:field>Основной</dcsset:field>
+								<dcsset:orderType>Desc</dcsset:orderType>
+							</dcsset:item>
+							<dcsset:viewMode>Normal</dcsset:viewMode>
+							<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+						</dcsset:order>
+						<dcsset:conditionalAppearance>
+							<dcsset:viewMode>Normal</dcsset:viewMode>
+							<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+						</dcsset:conditionalAppearance>
+						<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+						<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+					</ListSettings>
+				</Settings>
+			</Attribute>
+		</Attributes>
 	</BaseForm>
 </Form>
