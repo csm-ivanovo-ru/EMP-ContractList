@@ -1,15 +1,17 @@
-# Поддержка быстрого перехода к сопоставленным объектам
+# Расширение перечня реквизитов в форме списка договоров (для ЕМП)
 
-[![GitHub release](https://img.shields.io/github/v/release/csm-ivanovo-ru/{repository-name}.svg?sort=semver&logo=github)](https://github.com/csm-ivanovo-ru/{repository-name}/releases)
+[![GitHub release](https://img.shields.io/github/v/release/csm-ivanovo-ru/EMP-ContractList.svg?sort=semver&logo=github)](https://github.com/csm-ivanovo-ru/EMP-ContractList/releases)
 
 [![Semantic Versioning](https://img.shields.io/static/v1?label=Semantic%20Versioning&message=v2.0.0&color=green&logo=semver)](https://semver.org/lang/ru/spec/v2.0.0.html)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-v1.0.0-yellow.svg?logo=git)](https://conventionalcommits.org)
 
-Данный репозиторий содержит расширение конфигураций 1С:Предприятие 8.3.
+Данный репозиторий содержит расширение конфигурации
+1С:Единая метрологическая платформа.
 
 ## Назначение расширения
 
-Данное расширение конфигурации предназначено для...
+Данное расширение конфигурации предназначено для расширения списка выводимых реквизитов
+в форме списка договоров.
 
 ## О подготовке рабочего места разработчика
 
@@ -44,7 +46,7 @@
 Безусловно, удобнее выполнять эти действия с использованием [VSCode][].
 
 Репозиторий проекта размещён по адресу
-[github.com/csm-ivanovo-ru/{repository-name}](https://github.com/csm-ivanovo-ru/{repository-name}).
+[github.com/csm-ivanovo-ru/EMP-ContractList](https://github.com/csm-ivanovo-ru/EMP-ContractList).
 Стратегия ветвления - Git Flow.
 
 При необходимости внесения изменений в сам проект предложите Pull Request в основной
