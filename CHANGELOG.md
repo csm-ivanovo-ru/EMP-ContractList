@@ -26,6 +26,6 @@
   пользователей по ролям. Что позволяет настраивать видимость уже в режиме
   предприятия
 
-[Unreleased]: https://github.com/csm-ivanovo-ru/EMP-ContractList/compare/1.0.0...HEAD
-[1.0.1]: https://github.com/csm-ivanovo-ru/EMP-ContractList/compare/1.0.0...1.0.1
+[Unreleased]: https://github.com/csm-ivanovo-ru/EMP-ContractList/compare/1.1.0...HEAD
+[1.1.0]: https://github.com/csm-ivanovo-ru/EMP-ContractList/compare/1.0.0...1.1.0
 [1.0.0]: https://github.com/csm-ivanovo-ru/EMP-ContractList/releases/tag/1.0.0
