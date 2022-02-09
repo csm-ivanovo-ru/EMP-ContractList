@@ -150,6 +150,39 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="a615518e-fa80-4280-b760-9e818f399775">
+				<InternalInfo/>
+				<Properties>
+					<Name>НомерВКонтуре</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>1c57fc3b-3040-4d7d-a879-03cd60b00cbb</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>20</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d4bfbb3c-5bc3-48b8-88c1-d4c4aa245b87">
+				<InternalInfo/>
+				<Properties>
+					<Name>ОбщаяСумма</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>bb0300af-ed0e-417a-8d50-cc7fae936ec3</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
 			<Attribute uuid="d5eca2f7-bdcc-4045-b0c9-6fd0e3daecbb">
 				<InternalInfo/>
 				<Properties>
@@ -292,6 +325,66 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<TabularSection uuid="03731902-e4c9-4ab3-a9c2-5f31a7afd0fc">
+				<InternalInfo>
+					<xr:GeneratedType name="CatalogTabularSection.ДоговорыКонтрагентов.ДополнительныеРеквизиты" category="TabularSection">
+						<xr:TypeId>a071acec-ecde-460e-b1dd-603d7dd5fcbc</xr:TypeId>
+						<xr:ValueId>f6e95c77-f31c-4ff7-907f-12cefdfd6e91</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="CatalogTabularSectionRow.ДоговорыКонтрагентов.ДополнительныеРеквизиты" category="TabularSectionRow">
+						<xr:TypeId>61c9349f-a02c-45bd-babc-63f66d7e279a</xr:TypeId>
+						<xr:ValueId>6bce94a5-e4b2-4f34-ae8a-cb3d91a2cc91</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ДополнительныеРеквизиты</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>81101967-5ca8-4bcb-ab01-24154f571f2f</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="7855f121-6cf6-4637-8d6b-a63fabcc42eb">
+						<InternalInfo/>
+						<Properties>
+							<Name>Свойство</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<ExtendedConfigurationObject>058823aa-f0d6-4750-bec8-01855c166276</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="2fb5c406-f948-4454-a8dc-b62ebcb922ef">
+						<InternalInfo/>
+						<Properties>
+							<Name>Значение</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<ExtendedConfigurationObject>9a82e690-6687-4433-a870-6f5f8ba9a001</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:Characteristic.ДополнительныеРеквизитыИСведения</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="97ef4c69-5e4b-476c-b9a6-a644da466273">
+						<InternalInfo/>
+						<Properties>
+							<Name>ТекстоваяСтрока</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<ExtendedConfigurationObject>302b43c9-addb-4785-8254-f93706fec496</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>0</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
 			<Form>ФормаСпискаОбщая</Form>
 			<Form>ФормаСписка</Form>
 		</ChildObjects>
