@@ -2,39 +2,58 @@
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.11">
 	<ConfigVersions>
 		<Metadata name="Catalog.Валюты" id="fc278b71-cc08-4928-b893-f6dc94261e60" configVersion="24e2d8150f07fce5e056b0e2beee78530ef8a91a"/>
-		<Metadata name="Catalog.ДоговорыКонтрагентов" id="19bc91fa-f81e-4eba-8d24-558869e7f1f3" configVersion="79a92f01e8d4eb05fbb184b2db550d276e565741">
+		<Metadata name="Catalog.ДоговорыКонтрагентов" id="19bc91fa-f81e-4eba-8d24-558869e7f1f3" configVersion="4b00ce930f729c2e512e59623c78a8a49dc5205e">
+			<Metadata name="Catalog.ДоговорыКонтрагентов.TabularSection.ДополнительныеРеквизиты" id="03731902-e4c9-4ab3-a9c2-5f31a7afd0fc"/>
 			<Metadata name="Catalog.ДоговорыКонтрагентов.Attribute.УстановленСрокОплаты" id="0ff89d8e-465d-4318-8a4b-ff321c31ab52"/>
 			<Metadata name="Catalog.ДоговорыКонтрагентов.Attribute.Крон_Комментарий" id="10b279bd-dd89-4f26-9379-4bddd9d58366"/>
 			<Metadata name="Catalog.ДоговорыКонтрагентов.Attribute.Дата" id="12469156-94f4-4009-8acb-fef23138c43b"/>
 			<Metadata name="Catalog.ДоговорыКонтрагентов.Attribute.Статус" id="124e4665-f55c-454b-a90a-881f0629af67"/>
 			<Metadata name="Catalog.ДоговорыКонтрагентов.Attribute.ВалютаВзаиморасчетов" id="2dd62a1f-6cd9-4fe3-bd9d-75b397e61fc2"/>
+			<Metadata name="Catalog.ДоговорыКонтрагентов.TabularSection.ДополнительныеРеквизиты.Attribute.Значение" id="2fb5c406-f948-4454-a8dc-b62ebcb922ef"/>
 			<Metadata name="Catalog.ДоговорыКонтрагентов.Attribute.ВидДоговора" id="30d05aed-cbec-4e33-bea3-af6982e05bbe"/>
 			<Metadata name="Catalog.ДоговорыКонтрагентов.Attribute.СрокОплаты" id="326fdac1-8bc6-4a0b-8437-46d496ba205b"/>
 			<Metadata name="Catalog.ДоговорыКонтрагентов.Attribute.Стоимость" id="38e0e074-1d4b-4ec6-9119-46c5fdf1d4d2"/>
 			<Metadata name="Catalog.ДоговорыКонтрагентов.Attribute.РасчетыВУсловныхЕдиницах" id="51aa6663-3f8b-4d47-929a-80f4da347acc"/>
 			<Metadata name="Catalog.ДоговорыКонтрагентов.Attribute.Номер" id="5ed5f60a-6fa3-4756-9861-f17014c720a5"/>
+			<Metadata name="Catalog.ДоговорыКонтрагентов.TabularSection.ДополнительныеРеквизиты.Attribute.Свойство" id="7855f121-6cf6-4637-8d6b-a63fabcc42eb"/>
 			<Metadata name="Catalog.ДоговорыКонтрагентов.Attribute.СрокДействия" id="7b2cca87-5322-456b-b357-2cb98e7a2a5a"/>
 			<Metadata name="Catalog.ДоговорыКонтрагентов.Attribute.ВидВзаиморасчетов" id="89488d2c-e971-42e5-bdec-dc7acb8c1fb5"/>
+			<Metadata name="Catalog.ДоговорыКонтрагентов.TabularSection.ДополнительныеРеквизиты.Attribute.ТекстоваяСтрока" id="97ef4c69-5e4b-476c-b9a6-a644da466273"/>
 			<Metadata name="Catalog.ДоговорыКонтрагентов.Attribute.Валютный" id="99eaf8ef-d599-4a7d-8ac1-e4c0adb3a7ab"/>
+			<Metadata name="Catalog.ДоговорыКонтрагентов.Attribute.НомерВКонтуре" id="a615518e-fa80-4280-b760-9e818f399775"/>
 			<Metadata name="Catalog.ДоговорыКонтрагентов.Attribute.ТипЦен" id="ae011d15-3e67-4d2a-b4f3-9846a5243f7c"/>
 			<Metadata name="Catalog.ДоговорыКонтрагентов.Attribute.Организация" id="b3b80de6-ee64-41c2-a448-b5e2a793715c"/>
 			<Metadata name="Catalog.ДоговорыКонтрагентов.Attribute.Бюджетный" id="b70eff3f-0294-44d5-b2ac-e2129ed868ff"/>
+			<Metadata name="Catalog.ДоговорыКонтрагентов.Attribute.ОбщаяСумма" id="d4bfbb3c-5bc3-48b8-88c1-d4c4aa245b87"/>
 			<Metadata name="Catalog.ДоговорыКонтрагентов.Attribute.ОплатаВВалюте" id="d5eca2f7-bdcc-4045-b0c9-6fd0e3daecbb"/>
 			<Metadata name="Catalog.ДоговорыКонтрагентов.Attribute.ПредметДоговора" id="eda724f8-3675-4cab-8e5c-8dddd5e7f71c"/>
 		</Metadata>
 		<Metadata name="Catalog.ДоговорыКонтрагентов.Form.ФормаСписка" id="05951ed2-6ac2-407c-8da2-ca51370695b9" configVersion="05f7f336904696d13f9c6921d406171daf08e13c"/>
-		<Metadata name="Catalog.ДоговорыКонтрагентов.Form.ФормаСписка.Form" id="05951ed2-6ac2-407c-8da2-ca51370695b9.0" configVersion="92f45bbface671c4cbd945195394419edbfe06a2"/>
+		<Metadata name="Catalog.ДоговорыКонтрагентов.Form.ФормаСписка.Form" id="05951ed2-6ac2-407c-8da2-ca51370695b9.0" configVersion="96306dc0f5706e157cf3df519d86d50891611675"/>
 		<Metadata name="Catalog.ДоговорыКонтрагентов.Form.ФормаСпискаОбщая" id="6880a9d8-ca6b-45c2-be51-940045846641" configVersion="b36dcd6959468e7d47bd6698e38b9f5f62286592"/>
 		<Metadata name="Catalog.ДоговорыКонтрагентов.Form.ФормаСпискаОбщая.Form" id="6880a9d8-ca6b-45c2-be51-940045846641.0" configVersion="40ad9f6633721b4c5f82bc46a08feb76021a6949"/>
+		<Metadata name="Catalog.ЗначенияСвойствОбъектов" id="e3fd15c1-122a-4238-9509-093088def0fc" configVersion="06133002c99ad4ebe6b772249cc6f51849dd34e8">
+			<Metadata name="Catalog.ЗначенияСвойствОбъектов.Attribute.Вес" id="2a38c4b2-5ebd-467a-8685-527e4b4d770e"/>
+			<Metadata name="Catalog.ЗначенияСвойствОбъектов.Attribute.ПолноеНаименование" id="ad358ec7-23d3-4b47-8f09-9b3bb9aada26"/>
+		</Metadata>
 		<Metadata name="Catalog.Контрагенты" id="ababfc57-d734-4e2f-8b1f-891d247f96a4" configVersion="fce1d988c0b257979ef71b8c26aa6125dff8464c"/>
 		<Metadata name="Catalog.Организации" id="ed7d0793-39fe-4378-9b75-0a477fdc1dbc" configVersion="f010493f79298435fe874c08472bde2f96bd7383"/>
+		<Metadata name="ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения" id="1aca6c32-69ac-489f-b76a-07c1cbbeb01e" configVersion="745b33f86ed97dc4b31be100e2c26bdb3549858d">
+			<Metadata name="ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения.Attribute.Имя" id="124a8f61-d6c4-43d7-b144-b2f8273b76e9"/>
+		</Metadata>
 		<Metadata name="CommonPicture.Скрепка" id="8a558e46-f0f8-4075-919f-3a3e3b335703" configVersion="0ef6a665d500aa18f93135c8384f6c9b46712f63"/>
-		<Metadata name="Configuration.РасширениеСпискаРеквизитовВФормеСпискаДоговоров" id="d644ba71-93f4-4b41-b89c-5a526aa53cad" configVersion="2fd4b644e639b50035a779c5834c42a14ae587f5"/>
+		<Metadata name="Configuration.РасширениеСпискаРеквизитовВФормеСпискаДоговоров" id="d644ba71-93f4-4b41-b89c-5a526aa53cad" configVersion="fbae4b5aecbe57e1a4c5ab1f42000a5a1a4a6875"/>
 		<Metadata name="DefinedType.ВладелецПрисоединенныхФайлов" id="7f98087e-763a-41ff-97af-886f6b176416" configVersion="6f1b537ae0e1a7c5657dc68f7d40fdaf882b78b5"/>
 		<Metadata name="Enum.ВидыДоговоровКонтрагентов" id="2ad7c76f-68a5-4483-b3ef-2a813fe50620" configVersion="bdfdc2874bc967191391ae2f397deaa637479a3e"/>
 		<Metadata name="InformationRegister.НаличиеПрисоединенныхФайлов" id="925c1edd-d647-4696-bb72-2b2c67b21377" configVersion="76e04ac21c96666a1bff320156312778c7662f92">
 			<Metadata name="InformationRegister.НаличиеПрисоединенныхФайлов.Resource.ЕстьФайлы" id="557db1cc-4ece-4734-a012-e34fb85068c5"/>
 			<Metadata name="InformationRegister.НаличиеПрисоединенныхФайлов.Dimension.ОбъектСФайлами" id="959e7b4e-52a8-44cf-949c-c900e5f88f6e"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ОсновныеДоговорыКонтрагента" id="2a314dd8-f494-4f63-aea9-048f3a2d4b87" configVersion="5c18b853b521801a5bcfda8a20b14ee7b115177a">
+			<Metadata name="InformationRegister.ОсновныеДоговорыКонтрагента.Dimension.ВидДоговора" id="0aa05fcc-0317-47e1-b52a-fbbfbbf56762"/>
+			<Metadata name="InformationRegister.ОсновныеДоговорыКонтрагента.Resource.Договор" id="6db3d28d-6144-4033-be95-32a2fe032741"/>
+			<Metadata name="InformationRegister.ОсновныеДоговорыКонтрагента.Dimension.Организация" id="9dfc7a79-5088-4a17-b3be-c12a3a4e277a"/>
+			<Metadata name="InformationRegister.ОсновныеДоговорыКонтрагента.Dimension.Контрагент" id="b8c5bc6a-5dd3-421e-97da-76be2c9d4917"/>
 		</Metadata>
 		<Metadata name="Language.Русский" id="3bd0c91e-db19-45b5-8187-d1f691abd6c6" configVersion="26d6f7f97b75ae31011ad87748c0ec5ea645335f"/>
 	</ConfigVersions>
